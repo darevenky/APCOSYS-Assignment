@@ -1,0 +1,25 @@
+{% extends 'app/dummy.html' %}
+
+
+{% block title %}
+    <title>Registration Form</title>
+{% endblock %}
+
+
+{% block body_block %}
+
+
+    <center>
+        <form  method="POST">
+            {% csrf_token %}
+            {{uo.as_p}}
+            {{do.as_p}}
+
+        <input type="submit" value="register">
+
+
+        </form>
+
+    </center>
+
+    {% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'app/dummy.html' %}
+
+{% block title %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block body_block %}
+    {% if username %}
+        <h2>Welcome To Home Page <span style="color: blue;">{{username}}</span> </h2>
+        
+    {% else %}
+        <h1> Welcome TO home Page</h1>
+    {% endif %}
+{% endblock %}
