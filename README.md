@@ -1,4 +1,4 @@
-1. first need to runserver
+1. first need to run runserver
 2. url 127.0.0.1:8000 copy this url in chrome(web browser)
 3. there you will find options like Register, login, Admin page
 4. After register you need to login, after you can logout
